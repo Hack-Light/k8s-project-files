@@ -1,0 +1,5 @@
+kubectl attach curl -c curl -i -t 
+use this to connect to a pod
+
+create a new cluster
+eksctl create cluster --name m-proj-22-cluster --version 1.22 --region us-east-1 --nodegroup-name standard-workers --node-type t3.micro --nodes 3 --nodes-min 1 --nodes-max 4 --managed
